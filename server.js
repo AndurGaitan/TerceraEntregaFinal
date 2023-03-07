@@ -1,5 +1,5 @@
 import * as dotenv from 'dotenv';
-import { connectDB } from './src/DAOs/createMongoConnection.js.js';
+import { connectDB } from './src/DAO/createMongoConnection.js';
 import { startServer } from './app.js';
 import { executeServerCluster } from './src/utils/excetuteClusterMode.js';
 import { logger } from './src/utils/logger.js';
